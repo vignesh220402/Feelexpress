@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Success</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="response-container">
+        <h1>Login Successful🥳</h1>
+        <div class="mycon">
+            <p id="username"></p>
+            <p id="password"></p>
+            <div class="anc">
+                <a href="/">Go back to Login</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        let myurl = new URLSearchParams(window.location.search);
+        let user = myurl.get('user');
+        let pass = myurl.get('pass');
+        document.getElementById('username').innerText = `USERNAME: ${user}`;
+        document.getElementById('password').innerText = `PASSWORD: ${pass}`;
+    </script>
+</body>
+
+</html>

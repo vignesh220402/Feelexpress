@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+    background-image: url(image/best\ background\ image.png)
+}
+h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 2000;
+    margin-bottom: 50px;
+}
+.form-con{
+    width: 350px;
+    height: 350px;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 54px 55px, rgba(0, 0, 0, 0.245) 0px -12px 30px, rgba(0, 0, 0, 0.234) 0px 4px 6px, rgba(0, 0, 0, 0.251) 0px 12px 13px, rgba(0, 0, 0, 0.267) 0px -3px 5px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-radius: 8px;
+}
+
+label{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 850;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-con {
+    margin-top: 30px;
+    width: 100%;
+}
+.input-con input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.submit-in{
+    padding: 9px;
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    outline: none;
+    background-color: rgba(207, 78, 100, 0.567);
+    margin-left: 32%;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-top: 10px;
+}
+.submit-in:hover{
+    background-color:rgba(190, 53, 76, 0.722);
+    transform: translatey(-2px);
+    color: rgb(169, 169, 169);
+}
+.input-con input:focus{
+    border-left: 3px solid rgb(14, 14, 143);
+    border-bottom: 3px solid rgb(14, 14, 143);
+    transition:0.5s;
+}
+input{
+    color: black;
+    font-weight: 900;
+}
+.mycon{
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 1px solid rgba(255, 255, 255, 0.303);
+}
+h1{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.anc {
+    text-align: center;
+}
+.anc a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.anc a:hover{
+    color: rgb(198, 191, 191);
+}
